@@ -2,8 +2,8 @@ import axios from "axios";
 import { Character, Comic } from "./data";
 
 const TS = '1'
-const API_KEY = "479f5c5b85a63593996614e72386202b"
-const HASH = "ccfd8a1c3ae29918a7bc3e318d5bd868"
+const API_KEY = ""
+const HASH = ""
 
 const BASE_URL = "https://gateway.marvel.com"
 const MARVEL_QUERY = `ts=${TS}&apikey=${API_KEY}&hash=${HASH}`
